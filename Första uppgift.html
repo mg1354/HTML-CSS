@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This is an assignment for HTML course-->
+	<title> This is a form to take your information for elementry evaluation for the job position.</title>
+</head>
+
+<h1> Please fill in this form. </h1>
+<form action="/action_page.php">
+<!--strong-->
+<p style="color:blue;"> <strong>Please input your name.</strong></p>
+<input type="text"  name="textField" size = "30" maxLength="20" value=" "  > 
+<br>
+<p style="color:blue;"> Please write about your personality.</p>
+<textarea rows="4" cols="30" style="background-color:#66ffcc"> </textarea>
+<br>
+<p style="color:blue;"><em>Are you traning someone? </em></p>
+<input type="radio" id="Yes" name="answer" value="Yes">
+<label for="Yes">Yes</label>
+<input type="radio" id="No" name="answer" value="No">
+<label for="No">No</label><br>
+
+<p style="color:blue;"> <em> <strong>How do you read your favorite material? </strong></em> </p>
+<input type="checkbox" id="Books" name="answer" value="Books">
+  <label for="answer"> Books</label><br>
+<input type="checkbox" id="Magazine" name="answer" value="Magazine">
+  <label for="answer">Magazine</label><br>
+<input type="checkbox" id="Online" name="answer" value="Online">
+<label for="answer"> Online</label><br>
+
+<label style="color:blue;"for="movie genre">Please choose your favorite movie genre:</label>
+  <select name="genre" id="genre">
+  	<option value=""></option>
+    <option value="Action">Action</option>
+    <option value="Romantic">Romantic</option>
+    <option value="Comedy">Comedy</option>
+    <option value="Drama">Drama</option>
+    <option value="Horror">Horror</option>    
+  </select>
+<br>
+<input type="submit" value="Submit"> 
+</form>
+</html>
+
+
